@@ -1,7 +1,3 @@
-# import calculations.network_characteristics as network_characteristics 
-# import calculations.algorithm_jakson as algorithm_jakson
-# import calculations.sq_coeff as sq_coeff
-# import numpy as np
 import math
 from calculations.network_characteristics import check_conditions
 
@@ -36,12 +32,6 @@ def run_decomp(data):
     
     response_time_network = (1/lamda_zero)*sum(n)
     
-    # result = {
-    #     "utilization": rho,
-    #     "node_customers": n,
-    #     "sq_D": sq_D,
-    #     "response_time_node": temp,
-    # }
     result = {
     "utilization": rho,
     "node_customers": n,
